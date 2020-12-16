@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="movieHeader container  text-white ">
+        <p class="text-right mb-0">
+            <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+            08081508
+            <i class="fa fa-search border-left ml-2 pl-2" aria-hidden="true"></i></p>
+        <nav class="navbar navbar-expand-lg navbar-dark py-0">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#moviemenu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="moviemenu">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WHAT'S ON</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SHORTCODES</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="movieCarousel">
+        <div id="carouselMovie" class="carousel slide carousel-fade " data-ride="carousel">
+            <ol class="carousel-indicators container mx-auto">
+                <li data-target="#carouselMovie" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselMovie" data-slide-to="1"></li>
+                <li data-target="#carouselMovie" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active items_1 background-items">
+
+                    <div class="carousel__overplay"></div>
+                    <div class="container carousel-caption  d-md-block">
+                        <span class="title">ACTION, ADVENTURE, FANTASY</span>
+                        <h6 class="display-4">End of the World: Part I</h6>
+                        <p class="font-weight-bold py-4">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                            consuetudium lectorum. Mirum
+                            est notare quam littera gothica, quam nunc putamus parum.</p>
+                        <div class="carousel__trailer">
+                            <span
+                                class="certificate mr-2 text-white text-center d-inline-block rounded-circle">PG</span>
+                            <button class="btn-orange border-0 text-white" data-toggle="modal"
+                                data-target="#trailerModal">
+                                <div class="carousel__btn-overplay"></div>
+                                <i class="fa fa-play mr-2" aria-hidden="true"></i>
+                                <span>PLAY TRAILER</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item items_2 background">
+                    <div class="carousel__overplay"></div>
+                    <div class="container carousel-caption d-md-block">
+                        <span class="title">ACTION, ADVENTURE, FANTASY</span>
+                        <h1 class="display-4">End of the World: Part II</h1>
+                        <p class="font-weight-bold py-4">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                            consuetudium lectorum. Mirum
+                            est notare quam littera gothica, quam nunc putamus parum.</p>
+                        <div class="carousel__trailer">
+                            <span
+                                class="certificate mr-2 text-white text-center d-inline-block rounded-circle">15</span>
+                            <button class="btn-orange border-0 text-white" data-toggle="modal"
+                                data-target="#trailerModal">
+                                <div class="carousel__btn-overplay"></div>
+                                <i class="fa fa-play mr-2" aria-hidden="true"></i>
+                                <span>PLAY TRAILER</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item items_3 background">
+                    <div class="carousel__overplay"></div>
+                    <div class="container carousel-caption  d-md-block">
+                        <span class="title">ACTION, ADVENTURE, FANTASY</span>
+                        <h1 class="display-4">End of the World: Part III</h1>
+                        <p class="font-weight-bold py-4">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                            consuetudium lectorum. Mirum
+                            est notare quam littera gothica, quam nunc putamus parum.</p>
+                        <div class="carousel__trailer">
+                            <span
+                                class="certificate mr-2 text-white text-center d-inline-block rounded-circle">PG</span>
+                            <button class="btn-orange border-0 text-white" data-toggle="modal"
+                                data-target="#trailerModal">
+                                <div class="carousel__btn-overplay"></div>
+                                <i class="fa fa-play mr-2" aria-hidden="true"></i>
+                                <span>PLAY TRAILER</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="newIn my-5">
+        <div class="container">
+            <h1 class="title">NEW IN</h1>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-6 ">
+                    <div class="newIn__items">
+                        <img src="./img/movie-1.jpg" class="img-fluid" alt="">
+                        <div class="newIn__overplay">
+
+                        </div>
+                        <div class="newIn__play">
+                            <i class="fa fa-play rounded-circle" aria-hidden="true"></i>
+                            <p>Read More</p>
+                            <p>Released: 7 Mar, 2017</p>
+                        </div>
+                    </div>
+                    <div class="newIn__detail text-warning">
+                        <p class="text-dark">The last post</p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+                </div>
+                <div class="col-lg-3  col-6 ">
+                    <div class="newIn__items">
+                        <img src="./img/movie-2.jpg" class="img-fluid" alt="">
+                        <div class="newIn__overplay">
+
+                        </div>
+                        <div class="newIn__play">
+                            <i class="fa fa-play rounded-circle" aria-hidden="true"></i>
+                            <p>Read More</p>
+                            <p>Released: 7 Mar, 2017</p>
+                        </div>
+                    </div>
+                    <div class="newIn__detail  text-warning ">
+                        <p class="text-dark">The last post</p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star text-black-50" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 ">
+                    <div class="newIn__items">
+                        <img src="./img/movie-3.jpg" class="img-fluid" alt="">
+                        <div class="newIn__overplay">
+
+                        </div>
+                        <div class="newIn__play">
+                            <i class="fa fa-play rounded-circle" aria-hidden="true"></i>
+                            <p>Read More</p>
+                            <p>Released: 7 Mar, 2017</p>
+                        </div>
+                    </div>
+                    <div class="newIn__detail  text-warning">
+                        <p class="text-dark">The last post</p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 ">
+                    <div class="newIn__items">
+                        <img src="./img/movie-4.jpg" class="img-fluid" alt="">
+                        <div class="newIn__overplay">
+
+                        </div>
+                        <div class="newIn__play">
+                            <i class="fa fa-play rounded-circle" aria-hidden="true"></i>
+                            <p>Read More</p>
+                            <p>Released: 7 Mar, 2017</p>
+                        </div>
+                    </div>
+                    <div class="newIn__detail  text-warning ">
+                        <p class="text-dark">The last post</p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star text-black-50" aria-hidden="true"></i>
+                        <i class="fa fa-star text-black-50" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="showTime">
+        <div class="container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="mon-tab" data-toggle="tab" href="#mon" role="tab"
+                        aria-controls="home" aria-selected="true">MON</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tue-tab" data-toggle="tab" href="#tue" role="tab" aria-controls="profile"
+                        aria-selected="false">TUE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="today-tab" data-toggle="tab" href="#today" role="tab"
+                        aria-controls="contact" aria-selected="false">TODAY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="thu-tab" data-toggle="tab" href="#thu" role="tab" aria-controls="home"
+                        aria-selected="true">THU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="fri-tab" data-toggle="tab" href="#fri" role="tab" aria-controls="profile"
+                        aria-selected="false">FRI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sat-tab" data-toggle="tab" href="#sat" role="tab" aria-controls="contact"
+                        aria-selected="false">SAT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sun-tab" data-toggle="tab" href="#sun" role="tab" aria-controls="contact"
+                        aria-selected="false">SUN</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="mon" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-6.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-5.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">PG</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-8.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-7.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="tue" role="tue" aria-labelledby="profile-tab">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-6.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-11.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-4.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-6.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="today" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-9.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-12.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-1.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-11.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="thu" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-5.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-7.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-8.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-2.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="fri" role="tue" aria-labelledby="profile-tab">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-13.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-13.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-1.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-3.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sat" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-5.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-7.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-9.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-2.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-4.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-6.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-8.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12">
+                            <img src="./img/movie-11.jpg" class="img-fluid" alt="movie-6">
+                        </div>
+                        <div class="col-lg-10 col-md-12">
+                            <span class="title">ACTION, ADVENTURE, SCI-FI</span>
+                            <h3>It's over</h3>
+                            <p>European mercenaries searching for black powder become embroiled in the defense of It's
+                                over of China against a horde of monstrous creatures.</p>
+                            <a href="#" class="btn-showTime">FULL SYNOPSIS <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="showTime-times">
+                                <div class="col-lg-10 ">
+                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> VIEWING TIMES</span>
+                                    <span class="time btn bg-light text-black-50">14:45</span>
+                                    <span class="time btn">18:30</span>
+                                    <span class="time btn">20:30</span>
+                                    <span class="time btn">24:45</span>
+                                </div>
+                                <div class="col-lg-2  text-right">
+                                    <span>105 MINS</span>
+                                    <span class="certificate">15</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="comingSoon bg-dark text-light">
+        <div class="comingSoon__bg">
+            <div class="container">
+                <h4 class="til__coming">COMING SOON</h4>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <p>DRAMA, THRILLER</p>
+                        <h4>Deepwater Horizon</h4>
+                        <p>A dramatization of the April 2010 disaster, when the offshore drilling rig Deepwater Horizon
+                            exploded and created the worst oil spill in U.S. history.</p>
+                        <div class="comingSoon__star text-warning">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+
+                            <i class="fa fa-calendar text-light px-3" aria-hidden="true"></i>
+                            <span class="text-light">30 September, 2017</span>
+                        </div>
+                        <a href="#">MORE INFO <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <img src="./img/slide-3-video.png" alt="" class="">
+                        <div class="comingSoon__play">
+                            <i class="fa fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="comingSoon__line ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2  col-4 comingSoon__img">
+                        <a href="#">
+                            <img src="./img/movie-6.jpg" alt="">
+                            <div class="comingSoon__name text-white">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+
+                        </a>
+
+
+                    </div>
+                    <div class="col-lg-2 col-4">
+                        <a href="#">
+                            <img src="./img/movie-7.jpg" alt="">
+                            <div class="comingSoon__name text-white">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                            <div class="comingSoon__overplay"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-4">
+                        <a href="#">
+                            <img src="./img/movie-8.jpg" alt="">
+                            <div class="comingSoon__name text-white">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                            <div class="comingSoon__overplay"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-4">
+                        <a href="#">
+                            <img src="./img/movie-9.jpg" alt="">
+                            <div class="comingSoon__name text-white">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                            <div class="comingSoon__overplay"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-4">
+                        <a href="#">
+                            <img src="./img/movie-11.jpg" alt="">
+                            <div class="comingSoon__name text-white">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                            <div class="comingSoon__overplay"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-4">
+                        <a href="#">
+                            <img src="./img/movie-13.jpg" alt="">
+                            <div class="comingSoon__name text-white">
+                                <h5>Deepwater horizon</h5>
+                                <p>07 September, 2017</p>
+                            </div>
+                            <div class="comingSoon__overplay"></div> ,
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact">
+        <div class="container">
+            <p>Need help? Contact our support team on</p>
+            <h3>0330 123 4567</h3>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-3 col-md-12">
+                    <h5>GET IN TOUCH</h5>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Give us feedback</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <h5>ABOUT MOVIE STAR</h5>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Find us</a></li>
+                        <li><a href="#">Schedule</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <h5>LEGAL STUFF</h5>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Cookie policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <h5>CONNECT WITH US</h5>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> Google +</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="text-white">2017 &copy; Movie Star / <a href="#">Web design by Klever media</a></p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="trailerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/y_eCZFbTdh4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
